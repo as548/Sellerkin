@@ -4,7 +4,7 @@ const app = express();
 const router = require("./routes/router");
 const cors = require("cors")
 const port = 4000;
-
+const path=require("path")
 //config
 if(process.env.NODE_ENV!=="PRODUCTION"){
     require("dotenv").config({path:"backend/.env"});
