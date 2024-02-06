@@ -1,4 +1,4 @@
-require("dotenv").config();
+
 const express = require("express");
 const app = express();
 const router = require("./backend/routes/router");
