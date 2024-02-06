@@ -7,7 +7,7 @@ const port = 4000;
 
 //config
 if(process.env.NODE_ENV!=="PRODUCTION"){
-    require("dotenv").config({path:"./.env"});
+    require("dotenv").config({path:"backend/.env"});
  }
 
 // middle ware
